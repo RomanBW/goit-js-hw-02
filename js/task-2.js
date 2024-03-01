@@ -5,7 +5,6 @@ function formatMessage(message, maxLengths) {
         return `${message.slice(0, maxLengths)}...`;
       }
     }
-
     console.log(formatMessage("Curabitur ligula sapien", 16)); // "Curabitur ligula..."
     console.log(formatMessage("Curabitur ligula sapien", 23)); // "Curabitur ligula sapien"
     console.log(formatMessage("Vestibulum facilisis purus nec", 20)); // "Vestibulum facilisis..."
